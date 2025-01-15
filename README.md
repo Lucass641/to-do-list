@@ -2,7 +2,7 @@
 
 Aplicação de um *todo list* (lista de tarefas) elaborada na linguagem JavaScript em conjunto com HTML e CSS, onde foi trabalhado conceitos de manipulação do DOM. A aplicação inclui recursos como adição, conclusão e remoção de tarefas. Além disso, foi utilizado boas práticas de usabilidade para criar uma experiência amigável ao usuário.
 
-![imagem que mostra o projeto](https://imgur.com/8X4WhvQ)
+![imagem que mostra o projeto](https://i.imgur.com/8X4WhvQ.png)
 
 ### Conceitos Trabalhados
 
