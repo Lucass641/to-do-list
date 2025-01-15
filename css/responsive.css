@@ -1,0 +1,41 @@
+@media only screen and (max-width: 425px) {
+    #container {
+        width: 400px;
+        margin: 30px;
+      }
+
+      #todo-form {
+        display: flex;
+        align-items: center;
+        background: #edeef0;
+        border-radius: 30px;
+        padding: 0 10px;
+        margin-bottom: 25px;
+      }
+      
+      #todo-form input {
+        width: 200px;
+        flex: none;
+        border: none;
+        background: transparent;
+        padding: 5px 0;
+        font-size: 12px;
+      }
+
+      #todo-form h2 {
+        height: 20px;
+        width: 70px;
+        padding: 20px 30px;
+        font-size: 12px;
+      }
+
+      ul li {
+        font-size: 13px;
+        padding: 8px;
+      }
+
+      ul li span {
+        padding: 0 15px;
+      }
+
+}

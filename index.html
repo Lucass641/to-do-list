@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+        <header id="todo-header">  
+            <h1>Lista de Tarefas</h1>
+            <img
+            src="https://img.icons8.com/?size=100&id=diW9Zvas0Htc&format=png&color=000000"
+            height="50px"
+            />
+        </header>
+        
+        <main>
+            <form id="todo-form">
+                <input
+                type="text"
+                placeholder="Adicione uma tarefa..."
+                id="task-title-input"
+                />
+                <button type="submit" id="add-task-button">
+                    <h2>Add</h2>
+                </button>
+      </form>
+
+
+      <section>
+          <ul id="todo-list"></ul>
+          
+        </section>
+    </main>
+</div>
+    
+    <script src="./js/index.js"></script>
+  </body>
+</html>

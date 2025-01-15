@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #78c1f3;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  background: #ffffff;
+  padding: 25px;
+  width: 550px;
+  border-radius: 10px;
+}
+
+#todo-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  #todo-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+  }
+  
+  #todo-form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 15px 0;
+    font-size: 20px;
+  }
+
+  #add-task-button {
+    border: none;
+    background: transparent;
+  }
+  
+  #todo-form h2 {
+    cursor: pointer;
+    border-radius: 40px;
+    height: 55px;
+    width: 100px;
+    padding: 15px;
+    background: rgb(50, 205, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.3s;
+  }
+
+  #todo-form h2:hover {
+    background: rgb(50, 235, 50);
+  }
+
+  ul li input {
+    cursor: pointer;
+  }
+
+  ul li {
+    list-style: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    background: #edeef0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  ul li button {
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0 15px;
+    color: #555;
+    font-size: 20px;
+    background: transparent;
+    transition: 0.3s;
+  }
+
+  ul li button:hover {
+    color: red;
+  }
+
+  li {
+    opacity: 0;
+    animation: new-item-animation 0.3s linear forwards;
+  }
+  
+  @keyframes new-item-animation {
+    from {
+      opacity: 0;
+      transform: translateY(-40px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  
